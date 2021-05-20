@@ -25,7 +25,7 @@ class About extends Component {
               <hr />
             </Container>
           </Jumbotron>
-<div>
+<div style={{marginTop:"-48px", marginButton:"-48px"}}>
           <div className="team-card">
             <MDBRow>
               <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
