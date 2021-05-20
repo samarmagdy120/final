@@ -37,13 +37,153 @@ const Modell = ({phone}) => {
           style={{ textAlign: "center", fontSize: "28px", padding: "26px" }}
         >
           سعر المعاينة 40 جنية
+          <div>
+            <h3
+              style={{
+                textAlign: "right",
+                fontSize: "17px",
+                marginTop: "20px",
+              }}
+            >
+              طرق الدفع
+            </h3>
+            <Row>
+              <Col>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">
+                  <img src={v} style={{ width: "47px" }} />
+                </label>
+              </Col>
+              <Col>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">
+                  {" "}
+                  <img src={m} style={{ width: "47px" }} />
+                </label>
+              </Col>
+            </Row>
+          </div>
+          <div>
+            <h3
+              style={{
+                textAlign: "right",
+                fontSize: "17px",
+                marginTop: "20px",
+              }}
+            >
+              بطاقة الائتمان
+            </h3>
+            <Form>
+              <Row>
+                <Col>
+                  <Form.Control
+                    placeholder="الاسم الاول"
+                    style={{ marginBottom: "15px" }}
+                  />
+                </Col>
+                <Col>
+                  <Form.Control
+                    placeholder="الاسم الثانى"
+                    style={{ marginBottom: "15px" }}
+                  />
+                </Col>
+              </Row>
+              <Row>
+                {" "}
+                <Col>
+                  <Form.Control
+                    placeholder="رقم بطاقة الائتمان"
+                    style={{ marginBottom: "15px" }}
+                  />
+                </Col>
+                <Col>
+                  <Form.Control
+                    placeholder="الكود السرى"
+                    style={{ marginBottom: "15px" }}
+                  />
+                </Col>
+              </Row>
+
+              <Row>
+                {" "}
+                <Col>
+                  <Form.Control
+                    as="select"
+                    defaultValue="الشهر"
+                    style={{ marginBottom: "15px" }}
+                  >
+                    <option>الشهر</option>
+                    <option>...</option>
+                  </Form.Control>
+                </Col>
+                <Col>
+                  <Form.Control
+                    as="select"
+                    defaultValue="السنة"
+                    style={{ marginBottom: "15px" }}
+                  >
+                    <option>السنة</option>
+                    <option>...</option>
+                  </Form.Control>
+                </Col>
+              </Row>
+            </Form>
+          </div>
+          <div>
+            <h3
+              style={{
+                textAlign: "right",
+                fontSize: "17px",
+                marginTop: "20px",
+              }}
+            >
+              عنوان الدفع
+            </h3>
+            <Form>
+              <Row>
+                <Col>
+                  <Form.Control
+                    placeholder="العنوان"
+                    style={{ marginBottom: "15px" }}
+                  />
+                </Col>
+              </Row>
+              <Row> </Row>
+
+              <Row>
+                {" "}
+                <Col>
+                  <Form.Control
+                    placeholder="postal/zip code"
+                    style={{ marginBottom: "15px" }}
+                  />
+                </Col>
+                <Col>
+                  <Form.Control
+                    as="select"
+                    defaultValue="المدينة"
+                    style={{ marginBottom: "15px" }}
+                  >
+                    <option>المدينة</option>
+                    <option>...</option>
+                  </Form.Control>
+                </Col>
+              </Row>
+            </Form>
+          </div>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             رفض
           </Button>
           <Button variant="primary">
-            <a href={`${url}${phone}`} target="_blank" style={{ color: "#FFF", textDecoration: "none" }}>اكمال</a>
+            <a
+              href={`${url}${phone}`}
+              target="_blank"
+              style={{ color: "#FFF", textDecoration: "none" }}
+            >
+              اكمال
+            </a>
           </Button>
         </Modal.Footer>
       </Modal>
