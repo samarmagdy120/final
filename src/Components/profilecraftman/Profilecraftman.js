@@ -85,7 +85,7 @@ const Profilecraftman = ({ match }) => {
                   float: "right",
                   textAlign: "right",
                   marginTop: "25px",
-                  marginRight: "53px";
+                  marginRight: "53px"
                 }}
               >
                 <li>
