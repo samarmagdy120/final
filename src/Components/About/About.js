@@ -25,7 +25,7 @@ class About extends Component {
               <hr />
             </Container>
           </Jumbotron>
-
+<div>
           <div className="team-card">
             <MDBRow>
               <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
@@ -243,6 +243,7 @@ class About extends Component {
               </MDBCol>
             </MDBRow>
           </div>
+</div>
         </MDBCardBody>
       </MDBCard>
     );
