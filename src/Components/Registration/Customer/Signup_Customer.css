@@ -1,0 +1,28 @@
+.Signup_Customer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  display: flex;
+  font-weight: 400;
+  background: rgb(16, 56, 92);
+  background: _webkit_linear-gradient(
+    90deg,
+    rgba(16, 56, 92, 1) 5%,
+    rgba(6, 136, 136, 1) 30%,
+    rgba(243, 198, 35, 1) 90%,
+    rgba(247, 231, 74, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(16, 56, 92, 1) 5%,
+    rgba(6, 136, 136, 1) 30%,
+    rgba(243, 198, 35, 1) 90%,
+    rgba(247, 231, 74, 1) 100%
+  );
+}
+.Signup_Customer .RegistationForm h1 {
+  margin-bottom: 25px;
+}

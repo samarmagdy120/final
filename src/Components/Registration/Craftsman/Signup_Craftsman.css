@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.form-group {
+  margin-bottom: 1rem;
+  width: 61%;
+}
+
+.form-control {
+  padding-bottom: 0px !important;
+}
+.DefaultStarComponent.addSelection {
+  color: #e6cc3f !important;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  width: 36% !important;
+  margin: auto;
+  border-radius: 14px;
+  margin-bottom: 21px;
+}
+.Signup_Craftsman {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  display: flex;
+  font-weight: 400;
+  background: rgb(16, 56, 92);
+  background: _webkit_linear-gradient(
+    90deg,
+    rgba(16, 56, 92, 1) 5%,
+    rgba(6, 136, 136, 1) 30%,
+    rgba(243, 198, 35, 1) 90%,
+    rgba(247, 231, 74, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(16, 56, 92, 1) 5%,
+    rgba(6, 136, 136, 1) 30%,
+    rgba(243, 198, 35, 1) 90%,
+    rgba(247, 231, 74, 1) 100%
+  );
+}
+.RegistationForm {
+  background-color: #f3f6ff;
+  width: 400px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+  border-radius: 15px;
+  box-shadow: 9px 7px 20px #10385c;
+  margin: auto;
+}
+.Signup_Craftsman .RegistationForm h1 {
+  margin-bottom: 25px;
+}
+form-group {
+  width: 90%;
+}
+.RegistationForm button {
+  width: 40% !important;
+  background-color: rgb(16, 56, 92) !important;
+  border: none !important;
+  font-weight: 900 !important;
+}
+.RegistationForm button:hover {
+  background-color: rgba(243, 198, 35, 1) !important;
+}
+.RegistationForm p {
+  margin-top: 10px;
+}

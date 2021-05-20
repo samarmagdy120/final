@@ -1,0 +1,19 @@
+.back-light{
+    background-color: #10375C !important;
+    color: #fff;
+}
+.text-link-footer{
+    color: #fff !important;
+}
+footer{
+    height: 350px;
+}
+.container p-4{
+    padding-bottom: 0;
+}
+#footer-line{
+    width: 80%;
+    margin: auto;
+    height: 1px;
+    background-color: #fff;
+}

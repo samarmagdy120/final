@@ -1,0 +1,123 @@
+.work {
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  align-items: inherit;
+  flex-wrap: wrap;
+  margin-top: -33px;
+}
+
+.work .work-title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.work .work-title span {
+  font-weight: normal;
+}
+
+.work .part {
+  margin-top: 20px;
+  width: 30%;
+  float: left;
+  height: auto;
+  padding: 100px 0;
+  border: 1px solid #888;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 5%;
+  box-shadow: 4px 5px 8px #888;
+  border-radius: 10px;
+}
+
+/* Product */
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  width: 17%;
+  height: 220px;
+  background-color: #0e0e0f;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 7px 5px 15px #10385c;
+  overflow: hidden;
+}
+.product .imgbox {
+  width: 100%;
+  height: 100%;
+  background-color: #10375c;
+  display: flex;
+  justify-content: center;
+}
+.product .imgbox img {
+  display: flex;
+  width: 45%;
+  height: 45%;
+  margin: 15px auto;
+}
+
+.product .content {
+  position: absolute;
+  bottom: -50px;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.product:hover .content {
+  bottom: 0;
+}
+.product .content h2 {
+  color: #222;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.product .content .price {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.product .content label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.choose {
+  background-color: rgb(16, 55, 92);
+  display: block;
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+}
+.choose:hover {
+  background-color: #f9cf23;
+  color: #10375c;
+  font-weight: 600;
+  text-decoration: none;
+}
+.work .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jumbotron {
+  background-color: #fff !important;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.jumbotron p {
+  font-weight: 700;
+}

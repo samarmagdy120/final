@@ -1,0 +1,75 @@
+.profilecraft-p {
+  background-color: #f3f6ff;
+  width: 70%;
+  margin-top: 15px;
+  padding-top: 20px;
+  box-shadow: 9px 7px 20px #10385c;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 23px;
+}
+
+.profilecraft ul li,
+.profile ul li {
+  margin-bottom: 5px;
+}
+/*upload image*/
+.wrapper {
+  position: relative;
+  height: 168px;
+  width: 168px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-bottom: 45px;
+  margin: auto;
+}
+
+.my_file {
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  color: transparent;
+  width: 100%;
+  height: 25%;
+  box-sizing: border-box;
+  /* padding: 15px 120px; */
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.my_file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.my_file::before {
+  content: "\f030";
+  font-family: "Font Awesome 5 Free";
+  font-size: 50px;
+  color: #fff;
+  display: inline-block;
+  -webkit-user-select: none;
+}
+
+.my_file::after {
+  content: "Update";
+  font-family: "arial";
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  top: 70px;
+  font-size: 14px;
+  position: absolute;
+}
+
+.my_file:hover {
+  opacity: 1;
+}
+input:focus {
+  outline: none;
+}

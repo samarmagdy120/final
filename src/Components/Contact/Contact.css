@@ -1,0 +1,15 @@
+.form-contact{
+    direction: rtl;
+    text-align: right;
+}
+.form-contact button{
+    float: right;
+    border: none;
+    background-color: #10375C;
+    width: 80px;
+    height: 40px;
+}
+.form-contact button:hover{
+    background-color: #FFC609;
+    color: #10375C;
+}

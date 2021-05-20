@@ -1,0 +1,27 @@
+.RateAndComment input {
+  float: right;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.comment-view {
+  float: right;
+}
+
+.comment {
+  display: inline-block;
+  margin-right: 52px;
+  margin-top: 22px;
+}
+
+.comment h3 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.comment p {
+  text-align: right;
+  font-size: 16px;
+}
