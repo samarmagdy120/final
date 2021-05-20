@@ -66,7 +66,7 @@ const Profile = () => {
                   float: "right",
                   textAlign: "right",
                   marginTop: "25px",
-                  marginRight: "35px";
+                  marginRight: "35px"
                 }}
               >
                 <li>
