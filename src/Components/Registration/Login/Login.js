@@ -40,7 +40,7 @@ const Login = (props) => {
         <div className="form-group">
           <input
             type="email"
-            className="form-control my_file"
+            className="form-control"
             placeholder="أدخل البريد الالكتروني"
             onChange={handleChange}
             name="email"
