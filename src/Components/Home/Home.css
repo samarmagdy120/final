@@ -152,10 +152,11 @@
   align-items: center;
 }
 hr {
-  border-top: 10px solid rgb(0, 114, 172) !important;
-  border-radius: 10px;
-  width: 30%;
-  margin: auto;
+ border-top: 10px solid #0072ac!important;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 33px;
 }
 /* Carousel */
 .carousel {
